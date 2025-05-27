@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="bg-dark-200 border-t border-gray-300">
+    <section className="border-t">
       <div className="">
-        <div className="max-w-screen-lg px-4 sm:px-6 text-gray-800 md:grid md:grid-cols-4 mx-auto hidden">
-          <div className="h-16 w-fit mt-2">
+        <div className="max-w-screen-lg px-4 sm:px-6 text-gray-800 md:grid md:grid-cols-4 mx-auto">
+          <div className="hidden md:block h-16 w-fit mt-2 md-block">
             <Link href="/" className="">
               <Image src="/icons/logo.svg" width={500} height={500} className="w-96 h-fit" alt="ZidiTrends Logo" />
             </Link>
