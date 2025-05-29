@@ -9,8 +9,8 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white text-grey shadow">
-      <div className="max-w-screen-xl mx-auto px-5 pt-5 pb-4 flex gap-5 items-center justify-between relative">
+    <nav className="relative bg-lightkblue text-grey shadow">
+      <div className="max-w-screen-xl mx-auto px-5 flex gap-5 items-center justify-between relative">
         {/* Logo */}
         <div className="h-16 flex items-center">
           <Image
@@ -28,7 +28,7 @@ const NavBar = () => {
         {/* Hamburger (Mobile only) */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden focus:outline-none text-white"
+          className="md:hidden focus:outline-none text-black"
           aria-label="Toggle mobile menu"
         >
           <svg
