@@ -8,7 +8,7 @@ const MissionSection = () => {
       <div className="text-center max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-dark mb-6">Our Mission</h2>
         <p className="text-xl text-gray-700 mb-8">
-          "To create symbiotic intelligence systems that amplify human potential while maintaining ethical boundaries and transparency."
+          To create symbiotic intelligence systems that amplify human potential while maintaining ethical boundaries and transparency.
         </p>
 
         <div className="flex flex-wrap justify-center gap-8">
