@@ -33,7 +33,7 @@ const Hero = () => {
                     </div>
 
                     <div className='col-span-6 flex justify-center'>
-                        <Image src="/assets/banner/mahila.png" alt="nothing" width={1000} height={805} />
+                        <Image src="/assets/banner/mnk.png" alt="nothing" width={1000} height={805} />
                     </div>
                     <div className='w-full flex items-center justify-center'>
                     <button className="inline-block px-7 py-1.5 overflow-hidden text-sm font-semibold transition-transform rounded-full group text-white bg-kellygreen hover:bg-Blueviolet hover:text-white">
