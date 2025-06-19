@@ -36,6 +36,7 @@ const AvatarGroup = () => {
             width={96} // Large enough to cover the max width
             height={96}
             className="rounded-full"
+            unoptimized
           />
         </div>
       ))}
