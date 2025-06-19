@@ -14,48 +14,49 @@ interface DataType {
 
 const postData: DataType[] = [
   {
-    name: "Robert Fox",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Grace M.",
+    profession: "Mother of twins, Kisumu",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "Thanks to your support, I received a safe delivery kit and postnatal care. I never felt alone during my pregnancy—thank you for being my lifeline.",
     imgSrc: "/assets/testimonial/user.svg",
   },
   {
-    name: "Leslie Alexander",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Dr. Faith Njoroge",
+    profession: "Nurse, Community Health Center",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "Your donations have helped us stock essential supplies for safe births. We’ve seen a drop in complications and a rise in healthy newborns.",
     imgSrc: "/assets/mentor/user2.png",
   },
   {
-    name: "Cody Fisher",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Samuel K.",
+    profession: "Volunteer, Maternal Care Program",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "Working with this initiative has been eye-opening. It’s more than giving—it’s restoring hope to families who felt forgotten.",
     imgSrc: "/assets/mentor/user3.png",
   },
   {
-    name: "Robert Fox",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Linet O.",
+    profession: "Young Mother, Kakamega",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "I had nothing when I learned I was pregnant. But your help gave me food, counseling, and confidence. My baby is now healthy and strong.",
     imgSrc: "/assets/mentor/user1.png",
   },
   {
-    name: "Leslie Alexander",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Dr. John K.",
+    profession: "Medical Director, Sunrise Clinic",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "We can now deliver over 100 babies a month safely, thanks to your generous contributions to our maternal care unit.",
     imgSrc: "/assets/mentor/user2.png",
   },
   {
-    name: "Cody Fisher",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Jane W.",
+    profession: "Donor & Advocate",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "Giving to this cause is one of the most rewarding things I’ve done. You know your donation is saving lives and building futures.",
     imgSrc: "/assets/mentor/user3.png",
   },
 ];
+
 
 export default class MultipleItems extends Component {
   render() {
@@ -99,16 +100,15 @@ export default class MultipleItems extends Component {
     };
 
     return (
-      <div className="bg-paleblue pb-10 sm:pb-32 lg:py-32" id="testimonial">
+      <div className="bg-paleblue pb-10 sm:pb-32 lg:py-12" id="testimonial">
         <div className="mx-auto max-w-7xl sm:py-4 lg:px-8">
           <div className="flex items-center justify-center flex-col gap-y-2 py-5">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold max-w-md mx-auto text-center text-kellygreen">
-              Here&apos;s what our{" "}
-              <span className="text-Blueviolet">customers</span> have to say
-            </h2>
-            <p className="text-lg font-medium text-slate-400/70">
-              Discover how our service can benefit you
-            </p>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold max-w-md mx-auto text-center text-kellygreen">
+            Real Stories of <span className="text-Blueviolet">Hope & Impact</span>
+          </h2>
+          <p className="text-lg font-medium text-slate-400/70">
+            Hear directly from those touched by your kindness
+          </p>
           </div>
 
           <Slider {...settings}>

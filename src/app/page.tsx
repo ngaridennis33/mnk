@@ -1,5 +1,6 @@
 import ImpactSection from '@/components/achievements/Achievements'
 import CallToActionSection from '@/components/callToAction/CallToActionSection'
+import Faq from '@/components/faq/Faq'
 import Hero from '@/components/hero/Hero'
 import DefaultLayout from '@/components/layout/DefaultLayout'
 import MissionSection from '@/components/mission/Mission'
@@ -10,14 +11,13 @@ import React from 'react'
 const Home = () => {
   return (
     <DefaultLayout>
-    <div className=''>
       <Hero/>
       <MissionSection/>
-      <TeamSection/>
       <ImpactSection/>
+      <TeamSection/>
       <Testimonials/>
+      <Faq/>
       <CallToActionSection/>
-    </div>
       </DefaultLayout>
   )
 }
