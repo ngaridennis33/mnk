@@ -1,9 +1,9 @@
 // data.ts
 export const navLinks = [
     { label: "Home", href: "/" },
-    { label: "Services", href: "/services" },
-    { label: "blog", href: "/blog" },
     { label: "About us", href: "/about-us" },
+    { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" },
 ];
 
 export const actionLinks = [

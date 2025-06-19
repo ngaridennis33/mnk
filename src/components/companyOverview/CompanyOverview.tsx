@@ -1,117 +1,113 @@
-import Image from 'next/image'
-import React from 'react'
+'use client';
+
+import Image from 'next/image';
+import React from 'react';
 
 const CompanyOverview = () => {
   return (
-    <section className="">
-    <div className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-white py-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            <div className="lg:text-center">
-                <h2
-                    className="font-heading mb-4 bg-orange-100 text-highlight-300 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
-                    What we do?
-                </h2>
-                <p className="font-heading mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
-                    We know tech, we know finance. We are fintech experts.
-                </p>
-                <p className="mt-4 max-w-2xl text-lg text-gray-500 lg:mx-auto">
-                    Our mission is to make information easy and accessible, helping you stay informed and inspired. From budgeting tips and travel guides to political insights, we bring you content that matters. Join us as we explore ideas, spark conversations, and keep you in the know.
-                </p>
-            </div>
+        <div className="lg:text-center">
+          <h2 className="mb-4 text-pink-700 bg-pink-100 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
+            What We Stand For
+          </h2>
+          <p className="text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
+            Every mother deserves safety. Every child deserves a chance.
+          </p>
+          <p className="mt-4 max-w-2xl text-lg text-gray-600 lg:mx-auto">
+  We are committed to providing essential care, education, and resources to mothers and newborns in vulnerable communities. Through partnerships, compassion, and action&mdash;we&rsquo;re building healthier beginnings, one birth at a time.
+</p>
 
-            <div className="mt-10">
-                <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-                    <div className="relative">
-                        <dt>
-                            <div
-                                className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                 <Image
-                                    fill
-                                    src="https://www.svgrepo.com/show/503163/api-settings.svg"
-                                    alt="API Settings Icon"
-                                    sizes="48px"
-                                    className="object-contain"
-                                />
-                            </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful API</p>
-                        </dt>
-                        <dd className="mt-2 ml-16 text-base text-gray-500">
-                            Lorem ipsum, dolor sit amet consectetur
-                            adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                            blanditiis ratione.
-                        </dd>
-                    </div>
-                    <div className="relative">
-                        <dt>
-                            <div
-                                className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                <Image
+        </div>
+
+        <div className="mt-12">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-12 md:gap-y-10">
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-pink-600 text-white">
+                <Image
                                     fill
                                     src="https://www.svgrepo.com/show/503138/webpack.svg"
                                     alt="API Settings Icon"
                                     sizes="48px"
                                     className="object-contain"
                                 />
-                            </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Easy to integrate
-                                SDK
-                            </p>
-                        </dt>
-                        <dd className="mt-2 ml-16 text-base text-gray-500"> Lorem ipsum, dolor sit amet consectetur
-                            adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                            blanditiis ratione.
-                        </dd>
-                    </div>
-                    <div className="relative">
-                        <dt>
-                            <div
-                                className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                <Image
-                                    fill
-                                    src="https://www.svgrepo.com/show/511771/dashboard-671.svg"
-                                    alt="API Settings Icon"
-                                    sizes="48px"
-                                    className="object-contain"
-                                />
-
-                            </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Low Transaction Cost
-                            </p>
-                        </dt>
-                        <dd className="mt-2 ml-16 text-base text-gray-500"> Lorem ipsum, dolor sit amet consectetur
-                            adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                            blanditiis ratione.
-                        </dd>
-                    </div>
-                    <div className="relative">
-                        <dt>
-                            <div
-                                className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-primary-500 text-white">
-                                <Image
-                                    fill
-                                    src="https://www.svgrepo.com/show/76267/free-commercial-label.svg"
-                                    alt="API Settings Icon"
-                                    sizes="48px"
-                                    className="object-contain"
-                                />
-
-                            </div>
-                            <p className="font-heading ml-16 text-lg leading-6 font-bold text-gray-700">Powerful Dashboard
-                            </p>
-                        </dt>
-                        <dd className="mt-2 ml-16 text-base text-gray-500"> Lorem ipsum, dolor sit amet consectetur
-                            adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                            blanditiis ratione.
-                        </dd>
-                    </div>
-                </dl>
+                </div>
+                <p className="ml-16 text-lg leading-6 font-bold text-gray-800">
+                  Access to Care
+                </p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-600">
+                We partner with clinics and midwives to ensure mothers receive essential prenatal, delivery, and postnatal services—especially in underserved areas.
+              </dd>
             </div>
 
-        </div>
-    </div>
-</section>
-  )
-}
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-pink-600 text-white">
+                <Image
+                                    fill
+                                    src="https://www.svgrepo.com/show/503138/webpack.svg"
+                                    alt="API Settings Icon"
+                                    sizes="48px"
+                                    className="object-contain"
+                                />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-bold text-gray-800">
+                  Education & Empowerment
+                </p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-600">
+                From birth preparedness to breastfeeding support, we equip mothers with knowledge and confidence to care for their babies and themselves.
+              </dd>
+            </div>
 
-export default CompanyOverview
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-pink-600 text-white">
+                <Image
+                                    fill
+                                    src="https://www.svgrepo.com/show/503138/webpack.svg"
+                                    alt="API Settings Icon"
+                                    sizes="48px"
+                                    className="object-contain"
+                                />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-bold text-gray-800">
+                  Community First
+                </p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-600">
+                We collaborate with local leaders, health workers, and volunteers to ensure long-lasting, culturally sensitive impact rooted in trust and care.
+              </dd>
+            </div>
+
+            <div className="relative">
+              <dt>
+                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-pink-600 text-white">
+                <Image
+                                    fill
+                                    src="https://www.svgrepo.com/show/503138/webpack.svg"
+                                    alt="API Settings Icon"
+                                    sizes="48px"
+                                    className="object-contain"
+                                />
+                </div>
+                <p className="ml-16 text-lg leading-6 font-bold text-gray-800">
+                  Transparent Giving
+                </p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-600">
+                Every contribution counts. We provide transparent reporting on how your donations are used to help mothers and babies thrive.
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default CompanyOverview;

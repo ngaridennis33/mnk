@@ -3,6 +3,7 @@ import CompanyOverview from '@/components/companyOverview/CompanyOverview'
 import Faq from '@/components/faq/Faq'
 import { Metadata } from 'next'
 import DefaultLayout from '@/components/layout/DefaultLayout'
+import AboutHero from '@/components/hero/AboutHero'
 
 export const metadata: Metadata = {
   title: "About"
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <DefaultLayout>
-      {/* <Hero/> */}
+      <AboutHero/>
       <CompanyOverview/>
       <Faq/>
     </DefaultLayout>

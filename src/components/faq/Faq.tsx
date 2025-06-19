@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import React, { useState } from 'react';
 
@@ -11,41 +11,51 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "What is this site about?",
-      answer: "The whole essence of this website is to provide trendy news on an array of topics to keep you in the loop on what is happening around you. You can be sure to read more on social, political, and financial issues, as well as entertainment-focused topics. We can guarantee there is something for you too!"
+      question: "What does this organization do?",
+      answer:
+        "We support mothers and newborns in under-resourced communities by providing access to safe deliveries, prenatal care, nutrition, and emotional support. Every donation directly impacts a life in need.",
     },
     {
-      question: "How do I navigate the site?",
-      answer: "The site is specially designed to make it super easy for you to navigate. We have provided functional prompts to ensure you are able to move through the site with ease and get the maximum from it."
+      question: "How does my donation help?",
+      answer:
+        "Your donation helps provide safe birth kits, essential medical supplies, clean water, nutritional support, and postpartum care to mothers and babies who need it most.",
     },
     {
-      question: "Can I comment and give my views on a topic?",
-      answer: "Yes! We have provided a comment section where you can give your views on the topics we write on. Your contribution is greatly appreciated!"
+      question: "Is my donation secure?",
+      answer:
+        "Absolutely. We use secure and trusted payment platforms to ensure your information is protected. Your privacy and generosity are our priority.",
     },
     {
-      question: "How do I subscribe to become a member?",
-      answer: "If you wish to subscribe to enjoy the benefits that come with becoming a member (e.g. receiving our newsletter and updates on new features), just scroll down the homepage and input your email address on the space provided, then click subscribe."
+      question: "Can I donate monthly?",
+      answer:
+        "Yes! You can choose to become a monthly donor and make an ongoing impact in the lives of vulnerable mothers and their children. Just select the 'monthly' option when donating.",
     },
     {
-      question: "How do I unsubscribe if I don’t wish to continue my membership?",
-      answer: "If you want to stop receiving updates from Zidi Trends, you can use the ‘unsubscribe’ button, which can be found in the emails we send you. "
+      question: "Can I get involved beyond donating?",
+      answer:
+        "We welcome volunteers, ambassadors, and partners! Whether you're a healthcare worker, student, or advocate, your time and voice matter. Reach out through our contact page to learn how.",
     },
     {
-      question: "Can I advertise on the site?",
-      answer: "Of course! Simply email us on info.ziditrends@gmail.com to enquire about advertising on our platform. "
-    }
-    ,
+      question: "Will I receive updates on how my donation is used?",
+      answer:
+        "Yes. We share regular updates, stories, and impact reports with our donors, so you can see the real difference your support makes.",
+    },
     {
-      question: "How do I use the ‘buy me a coffee’ button?",
-      answer: "You can buy your favorite news and entertainment plug a cup of coffee by clicking the ‘buy me a coffee’ button and following the guidelines up to where you can make payment. Thank you in advance!  "
-    }
+      question: "Is my donation tax-deductible?",
+      answer:
+        "Depending on your country and our registration, your donation may be tax-deductible. Please consult your local tax laws or reach out to us for documentation.",
+    },
   ];
 
   return (
     <div className="font-[sans-serif] py-4 divide-y rounded-lg max-w-7xl mx-auto px-4">
-      <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">Frequently asked questions</h2>
+      <div className="mb-8 text-center">
+        <h2 className="text-3xl font-bold text-rose-600">Have Questions?</h2>
+        <p className="text-md text-gray-600 mt-2">
+          We’re here to help you understand how your support brings hope to mothers and newborns.
+        </p>
       </div>
+
       {faqs.map((faq, index) => (
         <div role="accordion" key={index}>
           <button 
