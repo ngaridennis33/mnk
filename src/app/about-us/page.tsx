@@ -1,9 +1,21 @@
 import React from 'react'
+import CompanyOverview from '@/components/companyOverview/CompanyOverview'
+import Faq from '@/components/faq/Faq'
+import { Metadata } from 'next'
+import DefaultLayout from '@/components/layout/DefaultLayout'
 
-const About = () => {
+export const metadata: Metadata = {
+  title: "About"
+}
+
+const page = () => {
   return (
-    <div>About</div>
+    <DefaultLayout>
+      {/* <Hero/> */}
+      <CompanyOverview/>
+      <Faq/>
+    </DefaultLayout>
   )
 }
 
-export default About
+export default page
