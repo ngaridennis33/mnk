@@ -33,7 +33,7 @@ const AvatarGroup = () => {
           <Image
             src={avatar.src}
             alt={`Avatar ${index + 1}`}
-            width={96} // Large enough to cover the max width
+            width={96} 
             height={96}
             className="rounded-full"
             unoptimized

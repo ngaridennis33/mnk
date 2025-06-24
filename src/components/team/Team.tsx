@@ -51,29 +51,6 @@ const TeamSection = () => {
     ))}
   </div>
 </section>
-    // <section className="mb-20">
-    //   <h2 className="text-3xl font-bold text-dark mb-12 text-center">Meet Our Leadership</h2>
-    //   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-    //     {team.map((member, index) => (
-    //       <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-    //         <div className="relative w-full h-64">
-    //           <Image
-    //             src={member.image}
-    //             alt={member.name}
-    //             fill
-    //             className="object-cover"
-    //             sizes="(max-width: 768px) 100vw, 33vw"
-    //           />
-    //         </div>
-    //         <div className="p-6">
-    //           <h3 className="font-bold text-xl text-dark mb-1">{member.name}</h3>
-    //           <p className="text-primary-600 font-medium mb-3">{member.role}</p>
-    //           <p className="text-gray-600">{member.bio}</p>
-    //         </div>
-    //       </div>
-    //     ))}
-    //   </div>
-    // </section>
   );
 };
 
